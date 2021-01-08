@@ -17,12 +17,3 @@ def sqrt(x):
         result = (result + x / result) / 2
 
     return int(result)
-
-
-if __name__ == '__main__':
-    assert sqrt(4) == 2
-    assert sqrt(8) == 2
-    assert sqrt(0) == 0
-    assert sqrt(1) == 1
-    assert sqrt(2) == 1
-    assert sqrt(100) == 10
